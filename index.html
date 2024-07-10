@@ -12,6 +12,52 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="container">
+        <h1>Sign Up Now!</h1>
+        <!-- form -->
+         <form id="form">
+            <!-- full name -->
+             <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" placeholder="Full Name">
+             </div>
+             <!-- phone number -->
+             <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="555-555-5555">
+             </div>
+             <!-- email address -->
+             <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="example@example.com">
+             </div>
+             <!-- website URL -->
+             <div class="form-group">
+                <label for="website">Full Website</label>
+                <input type="url" id="website" placeholder="http://example.com">
+             </div>
+             <!-- password -->
+             <div class="form-group">
+                <label for="password1">Password</label>
+                <input type="password" id="password1" placeholder="Create a Password">
+             </div>
+             <!-- confirm password -->
+             <div class="form-group">
+                <label for="password2">Confirm Password</label>
+                <input type="password" id="password2" placeholder="Confirm Password">
+             </div>
+             <!-- button -->
+             <button type="submit">Register</button>
+         </form>
+
+         <!-- error/success message -->
+          <div class="message-container">
+            <h3 id="message">You Got This!</h3>
+          </div>
+    </div>
+
+
+
     <!-- javascript -->
     <script src="script.js"></script>
 </body>
